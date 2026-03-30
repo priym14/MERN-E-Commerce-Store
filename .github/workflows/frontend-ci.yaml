@@ -5,7 +5,7 @@ on:
      - main
     paths:
      - "frontend/**"
-     - ".github/workdlows/frontend-ci.yaml"
+     - ".github/workflows/frontend-ci.yaml"
 concurrency:
   group: frontend-deploy
   cancel-in-progress: true 
